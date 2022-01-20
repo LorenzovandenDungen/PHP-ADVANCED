@@ -1,12 +1,18 @@
 <?php
 $leeftijd = 0;
 
+echo '<ul>';
+
 while($leeftijd < 18){
-    echo "Ik ben: $leeftijd jaar, dus ik mag nog niet stemmen <br/>";
+    echo "<li> Ik ben: $leeftijd jaar, dus ik mag nog niet stemmen </li>";
     $leeftijd++;
 }
 
+
 if($leeftijd = 18){
-    echo "ik ben: $leeftijd jaar, dus ik mag stemmen! <br/>";
+    echo "<li>ik ben: $leeftijd jaar, dus ik mag stemmen! <br/>";
 }
+
+echo '</ul>';
+
 ?>
