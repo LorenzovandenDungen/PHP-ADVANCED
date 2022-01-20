@@ -10,7 +10,7 @@ while($leeftijd < 18){
 
 
 if($leeftijd = 18){
-    echo "<li>ik ben: $leeftijd jaar, dus ik mag stemmen! <br/>";
+    echo "<li> ik ben: $leeftijd jaar, dus ik mag stemmen! </li>";
 }
 
 echo '</ul>';
