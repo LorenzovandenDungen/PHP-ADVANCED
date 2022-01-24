@@ -1,4 +1,12 @@
 <?php
-$dagen = ("maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag");
 
+echo "<ul>";
+
+$dagen = array('maandag', 'dinsdag', 'woendag', 'donderdag', 'vrijdag', 'zaterdag', 'zondag');
+
+foreach ($dagen as $s){
+    echo $s."<li><br/>";
+}
+
+echo "</ul>";
 ?>
