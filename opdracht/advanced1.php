@@ -19,8 +19,16 @@
     }
     ?>
     </select><br>
+    <label for="tekstkleur">Tekstkleur:</label>
+    <select name="tekstkleur" id="tekstkleur">
+    <?php
+    foreach ($kleuren as $value){
+        echo "<option value='$value'>$value</option>";
+    } 
+    ?>
+    </select><br>
     <input type="submit" value="verstuur">
-
+</form>
     
 </body>
 </html>
