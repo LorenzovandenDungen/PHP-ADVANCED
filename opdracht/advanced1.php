@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+<tabel>
 <form name="invoer" action="advanced2.php" method="post"><br/>
     Tabelranddikte (px): <input type="text" name="tabelrand" id="tabelrand"><br>
     Celpadding (px): <input type="text" name="celpadding" id="celpadding"><br>
@@ -29,6 +30,6 @@
     </select><br>
     <input type="submit" value="verstuur">
 </form>
-    
+</tabel>
 </body>
 </html>
